@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "PlaywriteAR";
+    src: url("../assets/fonts/PlaywriteAR-VariableFont_wght.ttf");
+  }
+  $borde_redondo: 30px;
+
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  @import "./paleta_colores/paleta-principal";
+  @import "./mixins/mediaqueries";
+  @import "./mixins/mixins";
+  @import "./componentes/new_cards";
+
+  body{
+    height: 100vh;
+    font-size: 1rem;
+    font-family:Verdana;
+    color: $negro_onix;
+    
+  }
+  
+
+  @import "./componentes/header";
+  @import "./componentes/main_index";
+  @import "./componentes/main_destinos";
+  @import "./componentes/main_paquetes";
+  @import "./componentes/main_vuelos";
+  @import "./componentes/main_blog";
+  @import "./componentes/main_contacto";
+  @import "./componentes/main_consulta";
+  @import "./componentes/footer";
+
+  
+  h2{
+    font-family: "PlaywriteAR";
+    font-weight: bold;
+    color: $negro_onix;
+  }
+
+  .btn_buscar_enviar {
+    background-color: $azul_claro;
+    color: $negro_onix;
+    font-weight: bold;
+  }
+  
+  .btn_reset {
+    background-color: $azul_claro;
+    color: $negro_onix;
+    font-weight: bold;
+  }
+
+  .btn_buscar_enviar:hover {
+    background-color: $amarillo_brillante;
+  } 
+
+  .btn_reset:hover {
+    background-color: $amarillo_brillante;
+  } 
+   
+  .border_color {
+    border: 1px solid $turquesa;
+    border-radius: $borde_redondo;
+  }
+
+  .sig_ant{
+    font-family: "PlaywriteAR";
+    color: $verde_menta;
+    background: rgba(0,0,0,.4);
+  }
+
+ 
+
+
+  

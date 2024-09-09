@@ -1,0 +1,13 @@
+.main_destinos{
+   height: 84vh;
+   @include aplico-color(verde);
+  
+
+   @include respond-to (notebook){
+    height: auto;
+        .flip-card-back {
+            overflow:hidden;
+        } 
+        
+    }
+}

@@ -1,0 +1,53 @@
+.main_contacto{
+    height: 84vh;
+    @include aplico-color (verde);
+    font-family: Verdana;
+    font-size: 1rem;
+
+
+    .tam_carusel{
+        width:  640px;
+        height: 480px;
+        object-fit: cover;
+      
+    }
+
+    .scrol {
+        overflow-y:scroll;
+        scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+        scrollbar-width: thin;
+    }
+
+    .textarea_mod{
+        height: 11em;
+    }
+
+    h5{
+        font-family: "PlaywriteAR";
+        font-weight: bold;
+        color: $verde_menta;
+        background: rgba(0,0,0,.4);
+        text-align: center;
+        border-radius: $borde_redondo;
+      }
+    
+       p.txtcarousel{
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 1rem;
+        color: $verde_menta;
+        background: rgba(0,0,0,.4);
+        text-align: center;
+        border-radius: $borde_redondo;
+
+       } 
+
+
+
+    @include respond-to (notebook){
+        height: auto;   
+        }
+
+     
+
+}

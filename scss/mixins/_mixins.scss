@@ -1,0 +1,79 @@
+
+
+
+@mixin aplico-background($type) {
+  @if $type == grad_header {
+    background: linear-gradient($turquesa, $verde_menta);
+  } @else if $type == grad_footer {
+    background: linear-gradient($verde_menta, $turquesa);
+  } 
+}
+
+
+
+
+
+
+@mixin aplico-color($type) {
+    @if $type == azul {
+      background-color: $azul_claro;
+    } @else if $type == turquesa {
+      background-color: $turquesa;
+    } @else if $type == amarillo {
+      background-color: $amarillo_brillante;
+    } @else if $type == verde {
+      background-color: $verde_menta;
+    } @else if $type == corallight  {
+      background-color: $coral_suave;
+    }
+  }
+  
+  @mixin titulo_hf ($type) {
+    @if $type == op_header {
+       font-size: 1rem;
+       font-weight: bold;
+       font-style: italic;
+       font-family: "PlaywriteAR";
+       //color: $texto_N;
+       color: $negro_onix;
+
+    } @else if $type == op_footer {
+        font-size: 0.6rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        //color: $texto_N;
+        color: $negro_onix;
+        font-weight: bold;
+    }
+  }
+
+
+.coltxt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+    //color: $texto_N;
+    color: $negro_onix !important;
+    font-weight: bold;
+  }
+
+  .coltxt:hover{
+    background-color: $verde_menta;
+    border-radius: 30px;
+    border: 1px solid $negro_onix;
+  }
+
+
+@mixin perso_box($width, $height) {
+    width: $width;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  @mixin cont_img ($width, $height) {
+    width: $width;
+    height: $height;
+    object-fit: contain;
+  }
+
+

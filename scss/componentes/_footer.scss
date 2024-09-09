@@ -1,0 +1,23 @@
+footer{
+    height: 6vh;
+      //background-color: $turquesa;
+     //@include aplico-color(turquesa);
+     @include aplico-background(grad_footer);
+
+        .logo_footer{
+        @include perso_box (120px, 45px)
+    }
+    
+    .red_social {
+        @include perso_box (25px, 25px)
+     }
+
+    .pie_data{
+       @include titulo_hf (op_footer)
+    }
+
+    @include respond-to (notebook){
+        height: auto;        
+     }
+  
+}

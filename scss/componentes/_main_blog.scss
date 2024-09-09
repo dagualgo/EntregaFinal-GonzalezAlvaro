@@ -1,0 +1,59 @@
+.main_blog{
+    min-height: 84vh;
+    @include aplico-color (verde);
+    font-family: Verdana;
+    font-size: 1rem;
+    
+
+    .chg_row_colum{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+.cont_video{
+    width: 350px;
+    height: 198px;
+    border: 1px solid $turquesa;
+    border-radius: $borde_redondo;
+    object-fit: cover;
+}
+
+.cont_info{
+    width: 100%;
+    height: 198px;
+    background-color: $coral_suave;
+    border: 1px solid $turquesa;
+    border-radius: $borde_redondo;
+    overflow-y:scroll;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+    
+    
+    
+}
+
+h5{
+    font-family: "PlaywriteAR";
+    font-weight: bold;
+    color: $verde_menta;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    text-align: center;
+    border-radius: $borde_redondo;
+  }
+
+    @include respond-to (notebook){
+        height: auto; 
+        }
+
+        @include respond-to (tablet){
+            .chg_row_colum{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }   
+        }
+
+}

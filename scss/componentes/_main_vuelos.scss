@@ -1,0 +1,12 @@
+.main_vuelos{
+    height: 84vh;
+    @include aplico-color (verde);
+    font-family: Verdana;
+    font-size: 1rem;
+
+    @include respond-to (notebook){
+        height: auto;   
+        }
+
+
+}
