@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página de inicio -->
+  <url>
+    <loc>http://gonzal.great-site.net/</loc>
+    <lastmod>2024-09-09</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página de destinos -->
+  <url>
+    <loc>http://gonzal.great-site.net/pages/destinos.html</loc>
+    <lastmod>2024-09-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página de paquetes -->
+  <url>
+    <loc>http://gonzal.great-site.net/pages/paquetes.html</loc>
+    <lastmod>2024-09-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página de vuelos -->
+  <url>
+    <loc>http://gonzal.great-site.net/pages/vuelos.html</loc>
+    <lastmod>2024-09-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página de blog -->
+  <url>
+    <loc>http://gonzal.great-site.net/pages/blog.html</loc>
+    <lastmod>2024-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Página de contacto -->
+  <url>
+    <loc>http://gonzal.great-site.net/pages/contacto.html</loc>
+    <lastmod>2024-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Página de SiteMap -->
+  <url>
+    <loc>http://gonzal.great-site.net/pages/sitemap.html</loc>
+    <lastmod>2024-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
