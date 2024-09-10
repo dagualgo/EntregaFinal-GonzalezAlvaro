@@ -20,7 +20,7 @@
 <body>
     <header class="container-fluid">
         <div class="row h-100">      
-            <div class="col-sm-12 col-md-3 col-lg-2 p-0 d-flex align-items-center d-flex justify-content-around">
+            <div class="col-sm-12 col-md-2 col-lg-2 p-0 d-flex align-items-center d-flex justify-content-around">
                 <div><p class="titulo">Agencia de Viajes</p></div>
             </div>         
             
@@ -28,7 +28,7 @@
                 <div class="img_container"><img class="img_container" src="./assets/logo/logo.svg" alt="logo"/></div>
             </div>
 
-            <div class="col-sm-12 col-md-3 col-lg-6  d-flex align-items-center d-flex justify-content-around p-0 mx-0">              
+            <div class="col-sm-12 col-md-7 col-lg-7  d-flex align-items-center d-flex justify-content-around p-0 mx-0">              
                 <nav class="navbar navbar-expand-lg pt-1">
                     <div class="container-fluid">
                         
@@ -46,10 +46,6 @@
                             <li class="nav-item"><a class="nav-link active coltxt" aria-current="page" href="./pages/contacto.html">Contacto</a></li>
                             <li class="nav-item"><a class="nav-link active coltxt" aria-current="page" href="./pages/contacto.html">SiteMap</a></li>
                         </ul>
-                        <form class="d-flex" role="search">
-                        <input class="form-control me-2 buscar_lbl togle" type="search" placeholder="Buscar" aria-label="Search" buscar_lbl>
-                        <button class="btn_perso" type="submit">Buscar</button>
-                        </form>
                       </div>
                  </div>
                 </nav>  
@@ -59,175 +55,15 @@
     </header>
 
     <main class="main_index container-fluid">
-        <div class="row h-100 w-100">
-       
-              
-            <div class="world-map d-flex justify-content-center align-items-center">
-              
-                <div class="city" id="newyork">New York</div>
-                <div class="airplane" id="plane1"><img src="./assets/images/otras/Avion.webp" style="width: 500px; height: 300px;" alt=""></div>
-                <!-- <div class="airplane" id="plane1">✈️</div> -->
+        <div class="row h-100">
+          <section class="col-lg-12 d-flex justify-content-center">
+            <div class="d-block w-100">
+              <div class="world-map">
+                <div class="airplane" id="plane1"><img src="./assets/images/otras/1053_volarte_200x130.webp" styles="width: 500px; height: 300px;" alt=""></div>
+                <div class="airplane" id="plane2"><img src="./assets/images/otras/1053_volarte_200x130-2.webp" alt=""></div>
+              </div>              
             </div>
-
-        
-            
-
-
-
-       
-          
-         
-
-       
-    <!-- <div class="container__background-triangle">
-      <div class="triangle triangle1">✈️✈️✈️✈️✈️
-        <img class="d-block w-100 h-100" src="./assets/logo/logo_op2.webp" alt="">
-      </div>
-      <div class="triangle triangle2">
-        <img class="d-block w-100 h-100" src="./assets/logo/logo_op2.webp" alt="">
-      </div>
-      <div class="triangle triangle3">
-        <img class="d-block w-100 h-100" src="./assets/logo/logo_op2.webp" alt="">
-      </div>
-  </div> -->
-
-
-
-
-
-
-
-
-              <!-- <section class="col-lg-4  h-50  p-1 d-flex justify-content-center  d-flex align-items-center">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img class="blk_img" src="./assets/images/inicio/europa.webp" alt="europa">
-                      <h3>Europa</h3>
-                    </div>
-                    <div class="flip-card-back">
-                      <h3>Europa</h3>
-                      <p>Riqueza cultural, historia milenaria, arquitectura icónica y paisajes diversos, desde montañas hasta costas.</p> 
-                      <p><a href="#">Roma U$S 1650</a></p>
-                      <p><a href="#">Paris U$S 1450</a></p>
-                      <p><a href="#">Londres U$S 1750</a></p>
-                      <p><a href="#">Alemania U$S 1950</a></p>
-                      <p><a href="#">Rusia U$S 2550</a></p>
-                      <p><a href="#">Turquia U$S 1950</a></p>
-                      <p><a href="#">Consulte por más Destinos</a></p>
-                    </div>
-                  </div>
-                </div>                
-              </section>
-  
-              <section class="col-lg-4  h-50  p-1 d-flex justify-content-center  d-flex align-items-center">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img class="blk_img" src="./assets/images/inicio/caribe-full.webp" alt="Caribe">
-                      <h3>Caribe</h3>
-                    </div>
-                    <div class="flip-card-back">
-                      <h3>Caribe</h3>
-                      <p>Playas paradisíacas, aguas cristalinas, clima tropical, vida marina colorida, cultura vibrante y resorts de lujo.</p> 
-                      <p><a href="#">Punta Cana U$S 650</a></p>
-                      <p><a href="#">Jamaica U$S 1450</a></p>
-                      <p><a href="#">Cozumel U$S 1750</a></p>
-                      <p><a href="#">Bahamas U$S 1950</a></p>
-                      <p><a href="#">Grand Cayman U$S 2550</a></p>
-                      <p><a href="#">Saint Thomas U$S 1950</a></p>
-                      <p><a href="#">Consulte por más Destinos</a></p>
-                    </div>
-                  </div>
-                </div>  
-              </section>
-  
-              <section class="col-lg-4  h-50  p-1 d-flex justify-content-center  d-flex align-items-center">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img class="blk_img" src="./assets/images/inicio/temporadabaja.webp" alt="temporada_baja">
-                      <h3>Temporada Baja</h3>
-                    </div>
-                    <div class="flip-card-back">
-                      <h3>Temporada Baja</h3>
-                      <p>Disfruta de los mejores lugares con tranquilidad a un bajo costo.</p> 
-                      <p><a href="#">Roma U$S 650</a></p>
-                      <p><a href="#">Paris U$S 800</a></p>
-                      <p><a href="#">Cozumel U$S 350</a></p>
-                      <p><a href="#">España U$S 650</a></p>
-                      <p><a href="#">Bahamas U$S 1950</a></p>
-                      <p><a href="#">Jamaica U$S 450</a></p>
-                      <p><a href="#">Consulte por más Destinos</a></p>
-                    </div>
-                  </div>
-                </div> 
-           
-              </section>
-  
-              <section class="col-lg-4  h-50  p-1 d-flex justify-content-center  d-flex align-items-center">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img class="blk_img" src="./assets/images/inicio/medio_oriente.webp" alt="Medio Oriente">
-                      <h3>Medio Oriente</h3>
-                    </div>
-                    <div class="flip-card-back">
-                      <h3>Medio Oriente</h3>
-                      <p>Contraste de desiertos y modernas ciudades, cultura ancestral, mercados exóticos y sitios históricos y religiosos.</p> 
-                      <p><a href="#">Egipto U$S 2650</a></p>
-                      <p><a href="#">Jordania U$S 1450</a></p>
-                      <p><a href="#">Dubai U$S 3750</a></p>
-                      <p><a href="#">Marruecos U$S 1950</a></p>
-                      <p><a href="#">Consulte por más Destinos</a></p>
-                    </div>
-                  </div>
-                </div> 
-             
-              </section>
-  
-              <section class="col-lg-4  h-50  p-1 d-flex justify-content-center  d-flex align-items-center">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img class="blk_img" src="./assets/images/inicio/america.webp" alt="america">
-                      <h3>America</h3>
-                    </div>
-                    <div class="flip-card-back">
-                      <h3>America</h3>
-                      <p>América Latina turística: Diversidad natural y cultural, selvas, playas, ruinas ancestrales, ciudades vibrantes y cultura festiva.</p> 
-                      <p><a href="#">Rio U$S 1650</a></p>
-                      <p>Bs.As. U$S 1450</p>
-                      <p>Lima U$S 1750</p>
-                      <p>Santiago de Chile U$S 1950</p>
-                      <p>Montevideo U$S 2550</p>
-                      <p><a href="#">Consulte por más Destinos</a></p>
-                    </div>
-                  </div>
-                </div>          
-              </section>
-  
-              <section class="col-lg-4  h-50 p-1 d-flex justify-content-center  d-flex align-items-center">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <img class="blk_img" src="./assets/images/inicio/temporadaalta.webp" alt="temporada_alta">
-                      <h3>Temporada Alta</h3>
-                    </div>
-                    <div class="flip-card-back">
-                      <h3>Temprada Alta</h3>
-                      <p>Disfruta de la mejores lugares en su explendor!!!</p> 
-                      <p><a href="#">Roma U$S 1650</a></p>
-                      <p><a href="#">Paris U$S 1450</a></p>
-                      <p><a href="#">Londres U$S 1750</a></p>
-                      <p><a href="#">Ibiza U$S 1950</a></p>
-                      <p><a href="#">Dubai U$S 2550</a></p>
-                      <p><a href="#">Consulte por más Destinos</a></p>
-                    </div>
-                  </div>
-                </div>
-   
-              </section>  -->
+          </section>
         </div>
       </main>
 
