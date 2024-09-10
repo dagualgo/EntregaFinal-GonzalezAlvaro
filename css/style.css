@@ -555,6 +555,55 @@ header .togle:focus {
   }
 }
 
+.main_404 {
+  min-height: 84vh;
+  background-color: #98ff98;
+  font-family: Verdana;
+  font-size: 1rem;
+}
+.main_404 p {
+  margin-top: 10px;
+}
+.main_404 .img_error404 {
+  border-radius: 160px;
+  background: rgba(0, 0, 0, 0.9);
+}
+.main_404 .volver_link {
+  color: #98ff98;
+  width: 30%;
+  font-family: "PlaywriteAR";
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+}
+.main_404 .volver_link:hover {
+  background-color: #ff7f50;
+  border: 1px solid #353839;
+}
+.main_404 h2 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 55px;
+  line-height: 45px;
+  color: #98ff98;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  font-family: "PlaywriteAR";
+  border-radius: 30px;
+}
+.main_404 h3 {
+  margin-top: 1rem;
+  width: 90%;
+  height: auto;
+  line-height: 45px;
+  color: #98ff98;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  font-family: "PlaywriteAR";
+  border-radius: 30px;
+}
+
 footer {
   height: 6vh;
   background: linear-gradient(#98ff98, #40e0d0);

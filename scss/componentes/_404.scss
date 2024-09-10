@@ -1,0 +1,66 @@
+.main_404{
+    min-height: 84vh;
+    @include aplico-color (verde);
+    font-family: Verdana;
+    font-size: 1rem;
+
+    p{
+        margin-top: 10px;
+    }
+
+
+  .img_error404 {
+ 
+    border-radius:160px;
+    //border:10px solid #666;
+    background: rgba(0,0,0,.9);
+
+  }
+
+
+  .volver_link{
+    color: $verde_menta;
+    width: 30%;
+    font-family: "PlaywriteAR";
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: rgba(0,0,0,.9);
+    border-radius: 30px;
+  }
+
+  .volver_link:hover{
+    background-color: $coral_suave;
+    //color: black;
+    border: 1px solid $negro_onix;
+  }
+
+
+  h2{
+    margin-top: 1rem;
+    width: 100%;
+    height: 55px;
+    line-height: 45px;
+    color: $verde_menta;
+    background: rgba(0,0,0,.9);
+    text-align: center;
+    font-family: "PlaywriteAR";
+    border-radius: $borde_redondo;
+  }
+
+
+  
+  
+  h3 {
+    margin-top: 1rem;
+    width: 90%;
+    height: auto;
+    line-height: 45px;
+    color: $verde_menta;
+    background: rgba(0,0,0,.9);
+    text-align: center;
+    font-family: "PlaywriteAR";
+    border-radius: $borde_redondo;
+  }
+
+
+}
