@@ -23,36 +23,6 @@ $img_map: '../assets/images/otras/pngwing.com.webp';
     position: relative;
   }
 
-
-  .city {
-    color: $negro_onix;
-    font-weight: bold;
-    text-shadow: 0px 0px 5px #fff;
-    animation: flash 1s infinite alternate;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-
-  #newyork {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-  }
-  
-  #paris {
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-  }
-  
-  #tokyo {
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-  }
-  
-  #sydney {
-    grid-column: 4 / 5;
-    grid-row: 3 / 4;
-  }
-  
   .airplane {
     font-size: 2rem;
     animation: fly 5s ease-in-out infinite;
@@ -104,8 +74,8 @@ $img_map: '../assets/images/otras/pngwing.com.webp';
   }
   
   @include respond-to (notebook){
-    height: auto;   
-    width: auto;
+    //height: auto;   
+    //width: auto;
     }
 
 

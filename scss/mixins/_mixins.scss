@@ -1,6 +1,4 @@
 
-
-
 @mixin aplico-background($type) {
   @if $type == grad_header {
     background: linear-gradient($turquesa, $verde_menta);
@@ -8,10 +6,6 @@
     background: linear-gradient($verde_menta, $turquesa);
   } 
 }
-
-
-
-
 
 
 @mixin aplico-color($type) {
@@ -34,22 +28,27 @@
        font-weight: bold;
        font-style: italic;
        font-family: "PlaywriteAR";
-       //color: $texto_N;
        color: $negro_onix;
 
     } @else if $type == op_footer {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        //color: $texto_N;
         color: $negro_onix;
         font-weight: bold;
+    }  @else if $type == op_footer_note {
+      font-size: 0.6rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: $negro_onix;
+      font-weight: bold;
     }
+
+
+
   }
 
 
 .coltxt{
     font-family: Verdana, Geneva, Tahoma, sans-serif!important;
-    //color: $texto_N;
     color: $negro_onix !important;
     font-weight: bold;
   }

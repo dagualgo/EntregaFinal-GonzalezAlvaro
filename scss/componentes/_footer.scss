@@ -1,7 +1,5 @@
 footer{
     height: 6vh;
-      //background-color: $turquesa;
-     //@include aplico-color(turquesa);
      @include aplico-background(grad_footer);
 
         .logo_footer{
@@ -18,6 +16,14 @@ footer{
 
     @include respond-to (notebook){
         height: auto;        
-     }
+
+        .pie_data{
+         @include titulo_hf (op_footer_note)
+      }
+  
+     
+     
+      }
+
   
 }
